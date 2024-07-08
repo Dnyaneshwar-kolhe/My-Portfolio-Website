@@ -13,7 +13,7 @@ import Footer from "./components/sections/Footer";
 // import Projects from "./components/sections/Projects";
 import Experience from "./components/sections/Experience";
 // import ProjectDetails from "./components/Dialog/ProjectDetails";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
