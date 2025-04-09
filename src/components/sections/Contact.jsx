@@ -133,14 +133,14 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_204tg69",
-        "template_new0457",
+        "template_1b5mrse",
         e.target,
         "e2RZiUk5BdTb4tUt0"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          e.target.resut();
+          form.current.resut();
         },
         (error) => {
           alert(error);
