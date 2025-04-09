@@ -273,7 +273,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://drive.google.com/file/d/1xkLx1_PITXiqCVd7jLXlhM5bQMg5xtxp/view?usp=share_link",
+    img: "https://tectigonitsolutions.com/assets/images/logo.png",
     role: "Front-End Developer",
     company: "Tectigon IT Solution Pvt. Ltd.",
     date: "June 2023 - Present",
