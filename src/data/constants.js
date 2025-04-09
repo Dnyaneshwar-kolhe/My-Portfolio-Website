@@ -273,7 +273,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: "https://drive.google.com/file/d/1xkLx1_PITXiqCVd7jLXlhM5bQMg5xtxp/view?usp=share_link",
     role: "Front-End Developer",
     company: "Tectigon IT Solution Pvt. Ltd.",
     date: "June 2023 - Present",
