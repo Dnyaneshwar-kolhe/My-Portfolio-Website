@@ -274,10 +274,10 @@ export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    role: "Front-End Developer",
+    company: "Tectigon IT Solution Pvt. Ltd.",
+    date: "June 2023 - Present",
+    desc: "Developed and maintained 3+ responsive web applications using React.js, resulting in a 20% increase in mobile user engagement.",
     skills: [
       "ReactJS",
       "Redux",
