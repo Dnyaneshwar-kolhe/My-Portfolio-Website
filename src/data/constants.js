@@ -1,13 +1,13 @@
 export const Bio = {
   name: "Dnyaneshwar Kolhe",
   roles: [
-    "Full Stack Developer",
+    "Front-End Developer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Dnyaneshwar-kolhe",
   resume:
-    "https://drive.google.com/file/d/1KOMiTr2w-J70SxOYu3uq7Qt9IHhZcM7Z/view?usp=drive_link",
+    "https://drive.google.com/file/d/1mOT-l6VeLWK1OBNWrBSfajw__Atsbow6/view?usp=share_link",
   linkedin: "https://www.linkedin.com/in/dnyaneshwar-kolhe/",
   insta: "https://www.instagram.com/kaustubhkolhe75070?igsh=eHh1ank5NDlpNW1z&utm_source=qr",
   facebook: "https://www.facebook.com/share/uBCJ5Do7E92ijZB2/?mibextid=LQQJ4d",
