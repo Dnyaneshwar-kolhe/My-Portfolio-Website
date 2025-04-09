@@ -125,28 +125,45 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-const Contact = () => {
-  const form = useRef();
+// const Contact = () => {
+//   const form = useRef();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_204tg69",
-        "template_1b5mrse",
-        form.current,
-        "e2RZiUk5BdTb4tUt0"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.resut();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
-  };
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     emailjs
+//       .sendForm(
+//         "service_204tg69",
+//         "template_1b5mrse",
+//         form.current,
+//         "e2RZiUk5BdTb4tUt0"
+//       )
+//       .then(
+//         (result) => {
+//           alert("Message Sent");
+//           form.current.resut();
+//         },
+//         (error) => {
+//           alert(error);
+//         }
+//       );
+//   };
+
+  const Contact = () => {
+
+    //hooks
+    const [open, setOpen] = React.useState(false);
+    const form = useRef();
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      emailjs.sendForm('service_204tg69', 'template_1b5mrse', form.current, 'e2RZiUk5BdTb4tUt0')
+        .then((result) => {
+          setOpen(true);
+          form.current.reset();
+        }, (error) => {
+          console.log(error.text);
+        });
+    }
 
   return (
     <Container>
