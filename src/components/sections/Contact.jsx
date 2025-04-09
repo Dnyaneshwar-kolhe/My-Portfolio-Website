@@ -125,45 +125,29 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
-// const Contact = () => {
-//   const form = useRef();
+const Contact = () => {
+  const form = useRef();
 
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     emailjs
-//       .sendForm(
-//         "service_204tg69",
-//         "template_1b5mrse",
-//         form.current,
-//         "e2RZiUk5BdTb4tUt0"
-//       )
-//       .then(
-//         (result) => {
-//           alert("Message Sent");
-//           form.current.resut();
-//         },
-//         (error) => {
-//           alert(error);
-//         }
-//       );
-//   };
-
-  const Contact = () => {
-
-    //hooks
-    const [open, setOpen] = React.useState(false);
-    const form = useRef();
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      emailjs.sendForm('service_204tg69', 'template_1b5mrse', form.current, 'e2RZiUk5BdTb4tUt0')
-        .then((result) => {
-          setOpen(true);
-          form.current.reset();
-        }, (error) => {
-          console.log(error.text);
-        });
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_204tg69",
+        "template_5xmq40e",
+        e.target,
+        "e2RZiUk5BdTb4tUt0"
+      )
+      .then(
+        (result) => {
+          alert("Message Sent");
+          e.target.reset();
+        },
+        (error) => {
+          alert(error);
+        }
+      );
+    
+  };
 
   return (
     <Container>
@@ -175,10 +159,10 @@ const ContactButton = styled.input`
         </Desc>
         <ContactForm onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="user_email" name="user_email" />
+          <ContactInput placeholder="user_name" name="user_name" />
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInputMessage placeholder="message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
       </Wrapper>
