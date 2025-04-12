@@ -251,11 +251,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      // {
-      //   name: "Postman",
-      //   image:
-      //     "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      // },
+      {
+        name: "Agile",
+        image:
+          "https://www.google.com/imgres?q=agile%C2%A0&imgurl=https%3A%2F%2Fwww.krasamo.com%2Fwp-content%2Fuploads%2Fagile-01-scaled.jpeg&imgrefurl=https%3A%2F%2Fwww.krasamo.com%2Fagile-development-process%2F&docid=0ooY4v22_l_IgM&tbnid=Uy4VlAHpMmp0OM&vet=12ahUKEwji1Piy-dGMAxUWyDgGHTJLJCoQM3oECBkQAA..i&w=2560&h=1420&hcb=2&ved=2ahUKEwji1Piy-dGMAxUWyDgGHTJLJCoQM3oECBkQAA",
+      },
       // {
       //   name: "Adobe XD",
       //   image:
