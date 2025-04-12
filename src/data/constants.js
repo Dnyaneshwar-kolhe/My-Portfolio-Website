@@ -286,6 +286,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
+      "Agile",
     ],
     doc: "",
   },
