@@ -4,7 +4,7 @@ export const Bio = {
     "Front-End Developer",
   ],
   description:
-    "Front-End Developer with over 1.8 years of hands-on experience in building responsive web applications using HTML, CSS, JavaScript, and React.js. Possess a strong foundation in modern front-end development practices and a proven ability to create intuitive, user-friendly interfaces. Currently working at Tectigon IT Solution Pvt. Ltd., where I actively contribute to website design enhancements, UI/UX improvements, and code optimization. Highly motivated, detail-oriented, and passionate about continuous learning and growth in the ever-evolving field of web development.",
+    "Front-End Developer with hands-on experience in building responsive web applications using HTML, CSS, JavaScript, and React.js. Possess a strong foundation in modern front-end development practices and a proven ability to create intuitive, user-friendly interfaces. Highly motivated, detail-oriented, and passionate about continuous learning and growth in the ever-evolving field of web development.",
   github: "https://github.com/Dnyaneshwar-kolhe",
   resume:
     "https://drive.google.com/file/d/1mOT-l6VeLWK1OBNWrBSfajw__Atsbow6/view?usp=share_link",
