@@ -11,7 +11,7 @@ import { AnimatePresence } from "framer-motion";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 // import Projects from "./components/sections/Projects";
-import Experience from "./components/sections/Experience";
+// import Experience from "./components/sections/Experience";
 // import ProjectDetails from "./components/Dialog/ProjectDetails";
 // import { useState } from "react";
 
