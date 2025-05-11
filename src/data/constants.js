@@ -7,7 +7,7 @@ export const Bio = {
     "Front-End Developer with hands-on experience in building responsive web applications using HTML, CSS, JavaScript, and React.js. Possess a strong foundation in modern front-end development practices and a proven ability to create intuitive, user-friendly interfaces. Highly motivated, detail-oriented, and passionate about continuous learning and growth in the ever-evolving field of web development.",
   github: "https://github.com/Dnyaneshwar-kolhe",
   resume:
-    "https://drive.google.com/file/d/1mOT-l6VeLWK1OBNWrBSfajw__Atsbow6/view?usp=share_link",
+    "https://drive.google.com/file/d/1w9VK0RkFYvBTLiqgDTFg6tUAcUo6WBL9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dnyaneshwar-kolhe/",
   insta: "https://www.instagram.com/kaustubhkolhe75070?igsh=eHh1ank5NDlpNW1z&utm_source=qr",
   facebook: "https://www.facebook.com/share/uBCJ5Do7E92ijZB2/?mibextid=LQQJ4d",
