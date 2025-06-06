@@ -281,7 +281,7 @@ export const projects = [
       "EmailJs"
     ],
     category: "web app",
-    github: "https://github.com/your-username/chemsafe", // optional
+    github: "https://github.com/your-username/dnyanstack", // optional
     webapp: "https://dnyanstack.vercel.app"
   },
 
@@ -305,8 +305,8 @@ export const projects = [
       "EmailJs"
     ],
     category: "web app",
-    github: "https://github.com/your-username/chemsafe", // optional
-    webapp: "https://dnyanstack.vercel.app"
+    github: "https://github.com/your-username/VFXMILAN", // optional
+    webapp: "https://vfxmilan.onrender.com/"
   }    
 ];
 
