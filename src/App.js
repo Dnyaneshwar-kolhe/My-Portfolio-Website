@@ -10,10 +10,10 @@ import { BrowserRouter } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-// import Projects from "./components/sections/Projects";
+import Projects from "./components/sections/Projects";
 import Experience from "./components/sections/Experience";
-// import ProjectDetails from "./components/Dialog/ProjectDetails";
-// import { useState } from "react";
+import ProjectDetails from "./components/Dialog/ProjectDetails";
+import { useState } from "react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -39,7 +39,7 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  // const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
     <ThemeProvider theme={darkTheme}>
         <ThemeProvider theme={darkTheme}>
@@ -54,19 +54,19 @@ function App() {
                 <Skills />
                 <Experience />
               </Wrapper>
-              {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+              <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />
                 <Contact />
               </Wrapper>
               <Footer />
 
-              {/* {openModal.state && (
+              {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}
                   setOpenModal={setOpenModal}
                 />
-              )} */}
+              )}
             </div>
           </AnimatePresence>
         </Body>

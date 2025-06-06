@@ -239,27 +239,74 @@ export const education = [
   
 ];
 
-// export const projects = [
-//   {
-//     id: 11,
-//     title: "",
-//     date: "",
-//     description:
-//       "",
-//     image:
-//       "",
-//     tags: [
-//       "React Js",
-//       "PostgressSQL",
-//       "Node Js",
-//       "Express Js",
-//       "Redux",
-//       "React Flow",
-//     ],
-//     category: "web app",
-//     github: "",
-//     webapp: "",
-//   },
+export const projects = [
+  {
+    id: 11,
+    title: "ChemSafe",
+    date: "June 2025",
+    description:
+      "ChemSafe is a responsive, modern web application built for the chemical manufacturing industry. It features real-time product expiry alerts, inventory insights, and an intuitive interface for managing industrial products. Built using React.js, Firebase, Node.js, and Express.js, the platform is optimized for scalability and reliability. Ideal for chemical companies aiming for operational efficiency and digital transformation.",
+    image: "/img/Chemsafe.png",
+    tags: [
+      "React.js",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "Chemical Industry",
+      "Product Expiry System",
+      "Inventory Management",
+      "EmailJs"
+    ],
+    category: "web app",
+    github: "https://github.com/your-username/chemsafe", // optional
+    webapp: "https://chemsafe.onrender.com", // update with your live link
+  },
 
-// ];
+  {
+    id: 1,
+    title: "DnyanStack",
+    date: "Jan 2025",
+    description:
+      "DnyanStack is a personal web application developed by Dnyanshwar Kolhe, designed to assist learners in mastering programming fundamentals. The platform emphasizes practical learning through hands-on coding, debugging, and problem-solving. It offers resources like curated coding tips, IDE recommendations, and structured guidance to help users build a strong foundation in programming.",
+    image: "/img/DnyanStack.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Web Accessibility",
+      "UI/UX Design",
+      "Coding Tips",
+      "Learning Platform",
+      "EmailJs"
+    ],
+    category: "web app",
+    github: "https://github.com/your-username/chemsafe", // optional
+    webapp: "https://dnyanstack.vercel.app"
+  },
+
+  {
+    id: 2,
+    title: "VFXMILAN",
+    date: "",
+    description:
+      "VFX MILAN is a personal portfolio website built using TypeScript that showcases the creative work of Milan Dudkiya, a professional video editor. The site is designed with a modern aesthetic, emphasizing clean UI, smooth user experience, and responsive design.",
+    image: "/img/VFXMILAN.png",
+    tags: [
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Portfolio Website",
+      "Motion Graphics",
+      "UI/UX Design",
+      "Creative Editing",
+      "Web Animation",
+      "EmailJs"
+    ],
+    category: "web app",
+    github: "https://github.com/your-username/chemsafe", // optional
+    webapp: "https://dnyanstack.vercel.app"
+  }    
+];
 
